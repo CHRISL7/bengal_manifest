@@ -8,8 +8,8 @@
   </project>
   <project name="device/qcom/sepolicy_vndr" revision="574d92d7b2da1587f8bb4c6b6bd01440bb687e6b" upstream="refs/heads/sepolicy.vndr.lnx.1.0.r36-rel"/>
   <project name="device/qcom/vendor-common" revision="e338190f35b670cff35bdf286d7ca2b4b6a3c2bc" upstream="refs/heads/qcom-devices.lnx.6.0.r58-rel"/>
-  <project name="kernel/build" path="device/qcom/kernelscripts" revision="e5b037b60b860eedef49334ee500d96013b34105" upstream="refs/heads/kernel.lnx.4.19.r32-rel"/>
-  <project groups="cyborg" name="kernel/msm-4.19" revision="2363d0f9b7e11c8a7e7b8898921c07fc7d968f78" upstream="refs/heads/kernel.lnx.4.19.r32-rel"/>
+  <project name="kernel/build" path="device/qcom/kernelscripts" revision="5570ad18708a4d1994d013dc383b4c06952d8937" upstream="refs/heads/kernel.lnx.4.19.r22-rel"/>
+  <project groups="cyborg" name="kernel/msm-4.19" revision="a08f8067e8d98a0967bcbb5d0bfc6b172763fbd1" upstream="refs/heads/kernel.lnx.4.19.r22-rel"/>
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="4e3ed5037f16c38b57b9f9eed74a52b3ee804e53" upstream="refs/heads/audio-hal.lnx.8.0.r87-rel"/>
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="a625c77e625f190dd01ba812f8f7b5e93b098838" upstream="refs/heads/android-core.lnx.6.0.r62-rel"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="8686ba028248ece6b813af3a3c8303330e2ca804" upstream="refs/heads/display.lnx.6.1.r13-rel">
@@ -33,15 +33,15 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
   </project>
   <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="7d333fb9415ce10a293010fe32ffed7430f69396" upstream="refs/heads/nfc.vendor.lnx.2.0.r18-rel"/>
-  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="c9af4b764ef330b68a0c3b171c0da6020ce9a788" upstream="refs/heads/audio-drivers.lnx.4.0.r22-rel"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="3046c28ffdc1193e284027dd382fbf1fce3641c4" upstream="refs/heads/audio-drivers.lnx.4.0.r22-rel"/>
   <project groups="cyborg" name="platform/vendor/opensource/camera-kernel" path="kernel/msm-4.19/techpack/camera" revision="9e68a48c7ae2c794860eed9bb13c374bae85eb41" upstream="refs/heads/camera-kernel.lnx.3.1.r6-rel"/>
-  <project groups="cyborg" name="platform/vendor/opensource/display-drivers" path="kernel/msm-4.19/techpack/display" revision="7c201fa29478fd454b6630b344b8a24b01faf822" upstream="refs/heads/display-kernel.lnx.4.19.r23-rel"/>
-  <project name="platform/vendor/opensource/video-driver" path="kernel/msm-4.19/techpack/video" revision="ea1ec63548943fedd3a1f8f8f7a9832c0fac5c51" upstream="refs/heads/video-kernel.lnx.4.19.r31-rel"/>
+  <project groups="cyborg" name="platform/vendor/opensource/display-drivers" path="kernel/msm-4.19/techpack/display" revision="69fc3dea1cdf31f906181a0b4da24560fa497d52" upstream="refs/heads/display-kernel.lnx.4.19.r23-rel"/>
+  <project name="platform/vendor/opensource/video-driver" path="kernel/msm-4.19/techpack/video" revision="dbc2087f77a7521c2a86935da86c31963a200d12" upstream="refs/heads/video-kernel.lnx.4.19.r21-rel"/>
   <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" revision="001dc2e7804e8ad704c8151e3470e1f7f203996d" upstream="refs/heads/audio-hal.lnx.8.0.r87-rel"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="9541a55f842768220ddb4a36870523baf6ab6165" upstream="refs/heads/data.lnx.6.0.r65-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/data-kernel" path="vendor/qcom/opensource/data-kernel" revision="a52b1ea83a3b4c73ff050b2e363c2b643f20cdd6" upstream="refs/heads/data.lnx.6.0.r65-rel">
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="vendor/qcom/opensource/data-kernel" revision="a52b1ea83a3b4c73ff050b2e363c2b643f20cdd6" upstream="refs/heads/data.lnx.6.0.r35-rel">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/data_dlkm_vendor_board.mk" src="data_dlkm_vendor_board.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="0fb7abe717fab15465cc508e1952991147d96316" upstream="refs/heads/data.lnx.6.0.r65-rel"/>
