@@ -42,7 +42,7 @@
   <project name="platform/art" path="art" revision="76b2c6e4992075c027f50dd4dd3cf7ba34594f57" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/bionic" path="bionic" revision="fdcb8292c2f5b2630e3cc63b895b7576a56ea12f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="d99f9cabc15795523673643358a58c8aecba7e0a" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/build_repo" path="build/make" revision="b048d5a4d2b8fc8f488b88cbad17bc9c06bb66df" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf">
+  <project name="platform/build_repo" path="build/make" revision="d48ec0af653d1264419ee97271d91df58e617cfb" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -409,7 +409,7 @@
   <project name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="a00dac5fc5b031bb10d184fc49d9a3bb466c78f6" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/external/webp" path="external/webp" revision="b9612ec874d56ac401432fba7e2d866af6fa1022" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qcom_msm8x26,qc-common-sys-intf"/>
   <project name="platform/external/webrtc" path="external/webrtc" revision="80f388cc9a3f849b6c5cbb1277b84610aa12fef5" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="b0fbe524818af4a6d2aebca7df6088c04b465609" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="93723e2dd1a8d83113ce306f2b243b460e279b64" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/external/wycheproof" path="external/wycheproof" revision="cc7457e402efc8eaf389fa05cae65927dae59a44" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="e9ba442a19d8eb4d84d38c023b966745d3df6ad5" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="platform/external/xz-embedded" path="external/xz-embedded" revision="376b3aefa4f9ff028de12ed473d08b6acb18a98e" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
@@ -747,7 +747,7 @@
     <linkfile src="config/display-interfaces-product.mk" dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" revision="9ff587035fddde3d21724b61f9807f347d69e03a" upstream="refs/heads/data-sys.lnx.6.0.r2-rel" groups="qc-common-sys-intf,vsdk"/>
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="acdac869a3c35b902f5adcb4c3e30a8e2dd8bce2" upstream="refs/heads/fm.lnx.6.0.r3-rel" groups="qc-common-sys-intf,vsdk"/>
+  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="d056f106b6dbaa897e4692980f6fdab97f1d436c" upstream="refs/heads/fm.lnx.6.0.r3-rel" groups="qc-common-sys-intf,vsdk"/>
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" revision="48766adeab073d689f0edefbf5ac969d7fac80a2" upstream="refs/heads/android-vendor-hals.lnx.1.1.r53-rel" groups="qc-common-sys-intf,vsdk"/>
   <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" revision="d49b9baabdfd1db8bb4e949560effff2710fd464" upstream="refs/heads/bt.lnx.6.0.r4-rel" groups="qc-common-sys-intf,non_vsdk"/>
   <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt" revision="d0ef261d7a4ac5d7032ddf07b7620bd7847072df" upstream="refs/heads/bt.lnx.6.0.r4-rel" groups="qc-common-sys-intf,vsdk"/>
