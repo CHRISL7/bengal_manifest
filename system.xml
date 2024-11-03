@@ -32,8 +32,8 @@
   <project name="device/linaro/poplar" revision="906671d87cc9ab31512805fc7768046503369c37" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,device,pdk,poplar,qc-common-sys"/>
   <project name="device/linaro/poplar-kernel" revision="2f6bd503cc92d285e51d2aa3c381e562b2f4a63f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,device,pdk,poplar,qc-common-sys" />
   <project name="device/qcom/qssi" revision="3664fe0434145940b6616f5a398949fbbc1b9bab" upstream="refs/heads/qcom-qssi.lnx.6.0.r2-rel" groups="qc-common-sys-intf,vsdk"/>
-  <project name="device/qcom/qssi_32" revision="bd011c890103d4c4ae5c7d98a0945e6601b2e4fb" upstream="refs/heads/qcom-qssi.lnx.6.0.r2-rel" groups="qc-common-sys,vsdk"/>
-  <project name="device/qcom/qssi_32go" revision="98bde8f9ceddf233f3f83b130f0ee4bcf61b6867" upstream="refs/heads/qcom-qssi.lnx.6.0.r2-rel" groups="qc-common-sys,vsdk"/>
+  <project name="device/qcom/qssi_32" revision="42393c37a7aa3c9f6f8819957514b9fb3af7d64a" upstream="refs/heads/qcom-qssi.lnx.6.0.r2-rel" groups="qc-common-sys,vsdk"/>
+  <project name="device/qcom/qssi_32go" revision="d20a6b8b6519bda53c423ac8edce2f8b232fa667" upstream="refs/heads/qcom-qssi.lnx.6.0.r2-rel" groups="qc-common-sys,vsdk"/>
   <project name="device/qcom/sepolicy" revision="6d96c9bca4fe3c6700f56e731c77ea482fefefcb" upstream="refs/heads/sepolicy.lnx.6.0.r4-rel" groups="qc-common-sys-intf,vsdk"/>
   <project name="device/sample" revision="fb17a56658dca164f04ae24e5b09efb397780045" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,qc-common-sys-intf"/>
   <project name="kernel/configs" revision="a92d22e8579f741fd9bdffc30289f62df1afef9e" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel" groups="aosp-android11-release,pdk,vts,qc-common-sys-intf"/>
@@ -730,7 +730,7 @@
     <linkfile src="bt-system-opensource-product.mk" dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="d0a25e7b1093d23728646370f216eb881fa91f43" upstream="refs/heads/bt.lnx.6.0.r4-rel" groups="qc-common-sys-intf,non_vsdk"/>
-  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="a4a58ec157ebc571199626422fc7f4b792e15f6c" upstream="refs/heads/android-core-sysintf.lnx.6.0.r3-rel" groups="qc-common-sys-intf,vsdk">
+  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="7d97c6ef23a1e0c0d48a709bb933eec01a17105c" upstream="refs/heads/android-core-sysintf.lnx.6.0.r3-rel" groups="qc-common-sys-intf,vsdk">
     <linkfile src="build/QSSI_violators.mk" dest="vendor/qcom/build/tasks/QSSI_violators.mk"/>
     <linkfile src="build/QMAA_enforcement.mk" dest="vendor/qcom/build/tasks/QMAA_enforcement.mk"/>
     <linkfile src="build/vendor_prop_context_restriction.mk" dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk"/>
